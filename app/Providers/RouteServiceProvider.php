@@ -35,6 +35,10 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
+
+            Route::prefix('wx')
+                ->namespace($this->namespace.'Wx')
+                ->group(base_path('routes/wx.php'));
         });
     }
 
