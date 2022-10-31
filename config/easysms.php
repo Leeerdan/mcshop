@@ -31,8 +31,8 @@ return [
         ],
 
         'aliyun' => [
-            'access_key_id' => 'LTAI5tEqyU4CDPbUhr6ZAAJh',
-            'access_key_secret' => 'ktpAHTq1gdSqEPQlJ2MRHHXC5kTx2p',
+            'access_key_id' => '',
+            'access_key_secret' => '',
             'sign_name' => '验证码短信赠',
         ],
 
